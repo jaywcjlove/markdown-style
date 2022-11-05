@@ -1,0 +1,49 @@
+{
+  "name": "@wcj/markdown-style",
+  "version": "1.0.23",
+  "description": "Integrate markdown styles into web components, Markdown CSS styles will not be conflicted.",
+  "type": "module",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "homepage": "https://jaywcjlove.github.io/markdown-to-html/style.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/markdown-to-html/tree/main/packages/markdown-style"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "demo": "npx sgo --fallback demo.html",
+    "build": "tsbb build --disable-babel",
+    "watch": "tsbb watch --disable-babel"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "keywords": [
+    "web-component",
+    "web-components",
+    "markdown-style",
+    "markdown",
+    "web"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "lint-staged": {
+    "*.{css,md,json,prettierrc}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "devDependencies": {
+    "husky": "~8.0.0",
+    "lint-staged": "~13.0.0",
+    "prettier": "~2.7.0",
+    "tsbb": "~3.7.2"
+  }
+}
