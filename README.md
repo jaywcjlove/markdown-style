@@ -1,7 +1,7 @@
 Markdown Style
 ===
 
-[![CI](https://github.com/jaywcjlove/markdown-to-html/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/markdown-to-html/actions/workflows/ci.yml)
+[![CI](https://github.com/jaywcjlove/markdown-style/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/markdown-style/actions/workflows/ci.yml)
 [![jsDelivr CDN](https://data.jsdelivr.com/v1/package/npm/@wcj/markdown-style/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@wcj/markdown-style)
 [![npm version](https://img.shields.io/npm/v/@wcj/markdown-style.svg)](https://www.npmjs.com/package/@wcj/markdown-style)
 [![Open in unpkg](https://img.shields.io/badge/Open%20in-unpkg-blue)](https://uiwjs.github.io/npm-unpkg/#/pkg/@wcj/markdown-style/file/README.md)
@@ -106,8 +106,8 @@ Set the theme, do not automatically switch with the system:
 
 As always, thanks to our amazing contributors!
 
-<a href="https://github.com/jaywcjlove/markdown-to-html/graphs/contributors">
-  <img src="https://jaywcjlove.github.io/markdown-to-html/CONTRIBUTORS.svg" />
+<a href="https://github.com/jaywcjlove/markdown-style/graphs/contributors">
+  <img src="https://jaywcjlove.github.io/markdown-style/CONTRIBUTORS.svg" />
 </a>
 
 Made with [github-action-contributors](https://github.com/jaywcjlove/github-action-contributors).
