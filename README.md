@@ -1,6 +1,7 @@
 Markdown Style
 ===
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
 [![CI](https://github.com/jaywcjlove/markdown-style/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/markdown-style/actions/workflows/ci.yml)
 [![jsDelivr CDN](https://data.jsdelivr.com/v1/package/npm/@wcj/markdown-style/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@wcj/markdown-style)
 [![npm version](https://img.shields.io/npm/v/@wcj/markdown-style.svg)](https://www.npmjs.com/package/@wcj/markdown-style)
