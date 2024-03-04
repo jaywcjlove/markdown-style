@@ -103,6 +103,14 @@ Set the theme, do not automatically switch with the system:
 </markdown-style>
 ```
 
+Disable internal theme switching functionality
+
+```html
+<markdown-style theme-auto-switch-disabled theme="dark">
+  <h1>Markdown Style</h1>
+</markdown-style>
+```
+
 ## Contributors
 
 As always, thanks to our amazing contributors!

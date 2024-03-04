@@ -985,6 +985,7 @@ type Theme = 'light' | 'dark';
 
 class MarkdownStyle extends HTMLElement {
   private shadow: ShadowRoot;
+  private defaultTheme: Theme;
   get theme() {
     const value = this.getAttribute('theme');
     return value === null ? '' : value;
@@ -1009,6 +1010,10 @@ class MarkdownStyle extends HTMLElement {
     }
   }
   connectedCallback() {
+    const disableThemeAutoSwitch = this.getAttribute('theme-auto-switch-disabled');
+    if (disableThemeAutoSwitch == "" || disableThemeAutoSwitch && disableThemeAutoSwitch.toLowerCase() === 'true') {
+      return
+    }
     if (!this.theme) {
       const { colorMode } = document.documentElement.dataset as Record<string, Theme>;
       this.theme = colorMode;
