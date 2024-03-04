@@ -14,6 +14,8 @@
       max-width: 890px;
       margin: 0 auto;
       padding: 0 15px;
+      padding-bottom: 230px;
+      padding-top: 120px;
     }
   </style>
 </head>
@@ -21,7 +23,7 @@
   <dark-mode light="Light" dark="Dark" style="position: fixed; left: 10px; top: 8px;"></dark-mode>
   <github-corners target="__blank" href="https://github.com/jaywcjlove/markdown-style"></github-corners>
   <h1>Markdown Style Example</h1>
-  <markdown-style style="max-width: 520px; border: 1px solid #506d9b3b; padding: 10px;">
+  <markdown-style theme-auto-switch-disabled="true" style="max-width: 520px; border: 1px solid #506d9b3b; padding: 10px;">
 ```jsx
 import React from 'react';
 import 'markdown-style';
@@ -151,6 +153,14 @@ Set the theme, do not automatically switch with the system:
 
 ```html
 &lt;markdown-style theme=&#34;dark&#34;&gt;
+  &lt;h1&gt;Markdown Style&lt;/h1&gt;
+&lt;/markdown-style&gt;
+```
+
+Disable internal theme switching functionality
+
+```html
+&lt;markdown-style theme-auto-switch-disabled theme=&#34;dark&#34;&gt;
   &lt;h1&gt;Markdown Style&lt;/h1&gt;
 &lt;/markdown-style&gt;
 ```
