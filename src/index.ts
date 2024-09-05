@@ -569,14 +569,14 @@ markdown-style sup>a::after {
   content: "]";
 }
 
-.markdown-body .octicon-video {
-  border: 1px solid #d0d7de !important;
+markdown-body .octicon-video {
+  border: 1px solid var(--color-border-default) !important;
   border-radius: 6px !important;
   display: block;
 }
 
 markdown-style .octicon-video summary {
-    border-bottom: 1px solid #d0d7de !important;
+    border-bottom: 1px solid var(--color-border-default) !important;
     padding: 8px 16px !important;
     cursor: pointer;
 }
@@ -1011,8 +1011,8 @@ class MarkdownStyle extends HTMLElement {
   }
   connectedCallback() {
     const disableThemeAutoSwitch = this.getAttribute('theme-auto-switch-disabled');
-    if (disableThemeAutoSwitch == "" || disableThemeAutoSwitch && disableThemeAutoSwitch.toLowerCase() === 'true') {
-      return
+    if (disableThemeAutoSwitch == '' || (disableThemeAutoSwitch && disableThemeAutoSwitch.toLowerCase() === 'true')) {
+      return;
     }
     if (!this.theme) {
       const { colorMode } = document.documentElement.dataset as Record<string, Theme>;
