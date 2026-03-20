@@ -17,7 +17,7 @@
   <a target="_blank" href="https://apps.apple.com/app/6740425504" title="KeyClicker for macOS"><img alt="KeyClicker" height="52" width="52" src="https://wangchujiang.com/appicon/key-clicker.png"></a>
   <a target="_blank" href="https://apps.apple.com/app/6739052447" title="DayBar for macOS"><img alt="DayBar" height="52" width="52" src="https://wangchujiang.com/appicon/daybar.png"></a>
   <a target="_blank" href="https://apps.apple.com/app/6739444407" title="Iconed for macOS"><img alt="Iconed" height="52" width="52" src="https://wangchujiang.com/appicon/iconed.png"></a>
-  <a target="_blank" href="https://apps.apple.com/app/6737160756" title="Mousio for macOS"><img alt="Mousio" height="52" width="52" src="https://wangchujiang.com/appicon/rightmenu-master.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6737160756" title="Menuist for macOS"><img alt="Menuist" height="52" width="52" src="https://wangchujiang.com/appicon/rightmenu-master.png"></a>
   <a target="_blank" href="https://apps.apple.com/app/6723903021" title="Paste Quick for macOS"><img alt="Quick RSS" height="52" width="52" src="https://wangchujiang.com/appicon/paste-quick.png"></a>
   <a target="_blank" href="https://apps.apple.com/app/6670696072" title="Quick RSS for macOS/iOS"><img alt="Quick RSS" height="52" width="52" src="https://wangchujiang.com/appicon/quick-rss.png"></a>
   <a target="_blank" href="https://apps.apple.com/app/6670167443" title="Web Serve for macOS"><img alt="Web Serve" height="52" width="52" src="https://wangchujiang.com/appicon/web-serve.png"></a>
@@ -39,6 +39,7 @@ Markdown Style
 ===
 
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
+[![Follow On X](https://img.shields.io/badge/Follow%20on%20X-333333?logo=x&logoColor=white)](https://x.com/jaywcjlove)
 [![CI](https://github.com/jaywcjlove/markdown-style/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/markdown-style/actions/workflows/ci.yml)
 [![jsDelivr CDN](https://data.jsdelivr.com/v1/package/npm/@wcj/markdown-style/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@wcj/markdown-style)
 [![npm version](https://img.shields.io/npm/v/@wcj/markdown-style.svg)](https://www.npmjs.com/package/@wcj/markdown-style)
